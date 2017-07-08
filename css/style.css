@@ -1,0 +1,88 @@
+/* line 1, style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 6, style.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #eee; }
+
+/* line 11, style.scss */
+.maxBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-flex-direction: column; }
+
+/* line 17, style.scss */
+header {
+  flex-shrink: 0;
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  background: #fff;
+  margin: .5rem 0;
+  font-size: .9rem; }
+  /* line 25, style.scss */
+  header #uls {
+    display: flex; }
+    /* line 27, style.scss */
+    header #uls li {
+      list-style: none;
+      width: 33.3%;
+      text-align: center; }
+    /* line 32, style.scss */
+    header #uls .active {
+      widows: 33.3%;
+      color: blue;
+      border-bottom: 1px solid blue; }
+
+/* line 39, style.scss */
+.main {
+  width: 100%;
+  overflow-y: auto;
+  flex-shrink: 1;
+  flex-grow: 1; }
+  /* line 44, style.scss */
+  .main ul {
+    width: 94%;
+    height: 6rem;
+    margin: .5rem 3%;
+    background: #fff;
+    font-size: .8rem; }
+    /* line 50, style.scss */
+    .main ul li {
+      list-style: none; }
+    /* line 53, style.scss */
+    .main ul .one {
+      width: 100%;
+      height: 3rem;
+      color: #fff;
+      border-radius: .5rem; }
+      /* line 59, style.scss */
+      .main ul .one span:nth-child(1) {
+        font-size: 2.5rem; }
+        /* line 61, style.scss */
+        .main ul .one span:nth-child(1) img {
+          width: 1.2rem;
+          height: 1.2rem;
+          margin: .6rem .9rem .5rem 1.2rem; }
+      /* line 67, style.scss */
+      .main ul .one span:nth-child(2) {
+        float: right;
+        font-size: 1.2rem;
+        margin: .8rem .4rem 0 0; }
+    /* line 73, style.scss */
+    .main ul .two {
+      display: flex;
+      font-size: 0.001rem;
+      margin-top: .3rem;
+      -webkit-flex-direction: column; }
+      /* line 78, style.scss */
+      .main ul .two span {
+        line-height: 1.2rem; }
+
+/*# sourceMappingURL=style.css.map */
